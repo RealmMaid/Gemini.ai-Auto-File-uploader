@@ -1,7 +1,6 @@
 # This is an example .env file for the Gemini Uploader script.
 # Users should copy this to a file named ".env" in the same directory as the scripts
 # and fill in their actual values.
-# DO NOT commit the actual .env file with your credentials to GitHub.
 
 # --- Required Credentials ---
 # Your Google email address

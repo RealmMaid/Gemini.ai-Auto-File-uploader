@@ -1,0 +1,20 @@
+# This is an example .env file for the Gemini Uploader script.
+# Users should copy this to a file named ".env" in the same directory as the scripts
+# and fill in their actual values.
+# DO NOT commit the actual .env file with your credentials to GitHub.
+
+# --- Required Credentials ---
+# Your Google email address
+GEMINI_UPLOADER_EMAIL="your_email@example.com"
+# Your Google password (or an App Password if you use 2-Factor Authentication)
+GEMINI_UPLOADER_PASSWORD="your_secret_password"
+
+# --- Required Project Path ---
+# Absolute path to the root folder of the project you want to upload.
+# Example for Windows: TARGET_FOLDER_PATH="C:\\Users\\YourName\\Projects\\MyProject"
+# Example for macOS/Linux: TARGET_FOLDER_PATH="/Users/YourName/Projects/MyProject"
+TARGET_FOLDER_PATH="/path/to/your/project_folder"
+
+# --- Optional: Chrome Profile (Only if USE_CHROME_PROFILE is set to True in the main script) ---
+# CHROME_USER_DATA_DIR_PATH="/path/to/your/Chrome/User Data"
+# CHROME_PROFILE_DIR_NAME="Profile 1" # e.g., "Default", "Profile 1", etc.
